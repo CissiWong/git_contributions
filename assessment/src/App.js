@@ -1,4 +1,5 @@
 import React from 'react';
+import { Hello } from "./components/Hello";
 import logo from './logo.svg';
 import './App.scss';
 
@@ -8,6 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+        <Hello compiler="TypeScript" framework="React" />
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
