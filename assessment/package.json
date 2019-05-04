@@ -4,14 +4,30 @@
   "private": true,
   "dependencies": {
     "@types/jest": "^24.0.12",
+<<<<<<< HEAD
     "@types/node": "^12.0.0",
     "@types/react": "^16.8.16",
     "@types/react-dom": "^16.8.4",
+=======
+    "@types/node": "^11.13.8",
+    "@types/react": "^16.8.15",
+    "@types/react-dom": "^16.8.4",
+    "apollo-boost": "^0.3.1",
+    "chart.js": "^2.8.0",
+    "graphql": "^14.2.1",
+    "graphql-tag": "^2.10.1",
+>>>>>>> 760d7e722f1bd222a1e84443d49b1b0f0caa2b9b
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
+    "react-apollo": "^2.5.5",
     "react-dom": "^16.8.6",
+<<<<<<< HEAD
     "react-scripts": "^3.0.0",
     "tslint": "^5.16.0"
+=======
+    "react-scripts": "3.0.0",
+    "typescript": "^3.4.5"
+>>>>>>> 760d7e722f1bd222a1e84443d49b1b0f0caa2b9b
   },
   "scripts": {
     "start": "react-scripts start",
