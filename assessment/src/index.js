@@ -4,8 +4,10 @@ import ApolloClient, { InMemoryCache } from 'apollo-boost';
 import { gql } from 'apollo-boost';
 import './index.css';
 import App from './App';
+import { Hello } from "./components/Hello";
 import * as serviceWorker from './serviceWorker';
 
+<<<<<<< HEAD:assessment/src/index.js
 
 const client = new ApolloClient({
     uri: "https://api.github.com/graphql",
@@ -27,6 +29,11 @@ client
   .then(result => console.log(result));
 
 ReactDOM.render(<App />, document.getElementById('root'));
+=======
+ReactDOM.render(
+<App />,
+document.getElementById('root'));
+>>>>>>> 9c8de67ac8f92e2562d47ef1f44c2f5a7b701a61:assessment/src/index.tsx
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
